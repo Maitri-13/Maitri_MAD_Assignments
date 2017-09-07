@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top colleges in the US" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYU-le-MBR">
+                                <rect key="frame" x="102" y="20" width="171" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sz8-he-Mjm">
+                                <rect key="frame" x="27" y="76" width="93" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Cu Boulder">
+                                    <color key="titleColor" red="0.6206242383063858" green="0.36844947471198902" blue="0.79456768129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="butttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKJ-24-Fcy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoC-x0-f7H">
+                                <rect key="frame" x="141" y="76" width="93" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="U Penn">
+                                    <color key="titleColor" red="0.62062423830000002" green="0.3684494747" blue="0.79456768129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="butttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NT4-Yv-qAr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyp-eO-mRN">
+                                <rect key="frame" x="236" y="76" width="93" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="CFd-LR-jDO"/>
+                                    <constraint firstAttribute="width" constant="93" id="g4h-WD-ysu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Stony Brook">
+                                    <color key="titleColor" red="0.62062423830000002" green="0.3684494747" blue="0.79456768129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="butttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7BP-jD-8mE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIP-7c-Kf5">
+                                <rect key="frame" x="156" y="49" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="8dG-bc-Igx"/>
+                                    <constraint firstAttribute="height" constant="30" id="Dtm-cx-DfW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.26198506589999998" green="0.79456768129999999" blue="0.77301126570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="butttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wmp-5i-byc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa" translatesAutoresizingMaskIntoConstraints="NO" id="Zyg-wv-BMy">
+                                <rect key="frame" x="67" y="116" width="240" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="3qZ-dM-fbd"/>
+                                    <constraint firstAttribute="width" secondItem="Zyg-wv-BMy" secondAttribute="height" multiplier="60:47" id="Si9-Ri-lf8"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="188" id="TWa-d9-fZZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi4-w5-gYP">
+                                <rect key="frame" x="187.5" y="305" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zyp-eO-mRN" firstAttribute="width" secondItem="sz8-he-Mjm" secondAttribute="width" id="1QQ-EU-CS9"/>
+                            <constraint firstItem="Yi4-w5-gYP" firstAttribute="top" secondItem="Zyg-wv-BMy" secondAttribute="bottom" constant="1" id="6jM-lB-Uba"/>
+                            <constraint firstItem="Zyg-wv-BMy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D9b-Sq-a2C"/>
+                            <constraint firstItem="UoC-x0-f7H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hkf-Ga-m3V"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Zyg-wv-BMy" secondAttribute="bottom" constant="10" id="KPz-4o-0DT"/>
+                            <constraint firstItem="LIP-7c-Kf5" firstAttribute="top" secondItem="BYU-le-MBR" secondAttribute="bottom" constant="8" id="LPF-UC-CfI"/>
+                            <constraint firstItem="UoC-x0-f7H" firstAttribute="width" secondItem="sz8-he-Mjm" secondAttribute="width" id="MBG-93-XsC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zyg-wv-BMy" secondAttribute="trailing" constant="52" id="OGV-Yh-ohz"/>
+                            <constraint firstItem="zyp-eO-mRN" firstAttribute="leading" secondItem="UoC-x0-f7H" secondAttribute="trailing" constant="2" id="OWQ-LC-WVK"/>
+                            <constraint firstItem="sz8-he-Mjm" firstAttribute="top" secondItem="BYU-le-MBR" secondAttribute="bottom" constant="35" id="SM0-TI-eRw"/>
+                            <constraint firstItem="BYU-le-MBR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sps-vD-fjL"/>
+                            <constraint firstItem="LIP-7c-Kf5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UXM-Ma-X21"/>
+                            <constraint firstItem="zyp-eO-mRN" firstAttribute="top" secondItem="BYU-le-MBR" secondAttribute="bottom" constant="35" id="YdB-aF-Eh7"/>
+                            <constraint firstItem="Zyg-wv-BMy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="dGb-a0-i00"/>
+                            <constraint firstItem="BYU-le-MBR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dJM-AU-hVq"/>
+                            <constraint firstItem="UoC-x0-f7H" firstAttribute="top" secondItem="LIP-7c-Kf5" secondAttribute="bottom" constant="-3" id="uPW-Ve-X4o"/>
+                            <constraint firstItem="Zyg-wv-BMy" firstAttribute="top" secondItem="zyp-eO-mRN" secondAttribute="bottom" constant="7" id="uRv-no-1IF"/>
+                            <constraint firstItem="Yi4-w5-gYP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vS7-AH-kHB"/>
+                            <constraint firstItem="UoC-x0-f7H" firstAttribute="leading" secondItem="sz8-he-Mjm" secondAttribute="trailing" constant="21" id="xmj-4H-tkx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CollegeInfo" destination="Yi4-w5-gYP" id="G5u-6y-u2L"/>
+                        <outlet property="image" destination="Zyg-wv-BMy" id="Fie-nE-RgA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="usa" width="16" height="16"/>
+    </resources>
+</document>
