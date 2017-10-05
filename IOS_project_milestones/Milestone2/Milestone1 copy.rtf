@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww18680\viewh13380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 										TRACK-ON - The activity tracking app\
+\
+Description: 
+\b0 \
+The app is a task tracker for repeating activities. It will have 2 views. One is the list of tasks(Home page) and another is adding new tasks page.\
+\
+\
+
+\b Structure of the app: 
+\b0 \
+The home view page will have a table view with the tasks listed. At the top right corner of the view, there will be a button for adding new tasks. \
+This button will take the user to the next view.  The new view has multiple fields that require user inputs. The user can go back to the home page \
+either by hitting Cancel or Save. \
+ \
+\
+
+\b App Functionality:
+\b0 \
+\
+
+\b Home page:
+\b0 \
+1. The user can view their list of tasks. \
+	This list is achieved by implementing a table view controller. Each individual cell of the tableview will contain the goal name and the description entered by the user.\
+2. The user can hit the \'93add\'94 button to add new tasks to the list\
+	This button will take the user to the next view. The segue used to connect the save button to the next view is connected by \'93present modally\'94.\
+	\
+
+\b EditPage:
+\b0 \
+1. There are four text fields: \
+	a. Goal Name: To enter the name of the goal (Required: if the user tries to save without filling it, an alert will be displayed)\
+	b. Description: To describe the goal. (Optional)\
+	c. Start date: To enter the date since when the task will start (Required.)\
+	d. Time: The time to perform the activity being created. (Optional)\
+\
+2. There are two tables linked to action sheets\
+	a. Duration of repetition of task:  Defines the repeating reread of the task. When clicked on the label, a action sheet is displayed 					         containing the options. The default value is \'93Daily\'94\
+	b. Duration of repetition of task:  Defines how long is the task to be scheduled for. When clicked on the label, a action sheet is displayed 					         containing the options. The default value is \'93Forever\'94\
+\
+3. The save button saves all the information entered but the user and goes back to the home page. The save button is placed in the right corner\
+of the toolbar.  \
+\
+4. The cancel button voids all the data entered but the user and takes the control back to the home page. It is placed at the left corner of the tool bar.\
+\
+5. There are more fields for setting the reminders. I am not sure if I can implement the reminder within the time provided. It is right now under future extensions\
+\
+
+\b Common functionality:
+\b0 \
+1. The keyboard disappears when the Done button is hit or the user clicks anywhere else on the screen.\
+\
+
+\b Content of the app:\
+
+\b0  All the content of the app will be provided but the user. There are no formulas used.\
+\
+
+\b Roadblocks at this moment:
+\b0 \
+1. The tool bar is getting hidden automatically when I try to position it at the bottom of the page.\
+2. Since the table view has its own method for manipulating the data displayed in the cell, I am yet to figure out what to write in the unwind segue function.\
+3. There is a model file that has an array for all the corresponds to all the data that the user needs to enter. When I am trying to access these arrays in the edit page to store that data entered by the user, I am getting multiple errors.\
+4. Still working on making the data persist between launches.\
+\
+\
+\
+}
