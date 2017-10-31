@@ -1,0 +1,9 @@
+Milestone 1 Grad Project
+
+I am extending my project 1. Its a task schedular with one home page and one new view for adding new tasks.
+New features I would inplement
+1. Add delete feature to the list of tasks
+2. Add custom cell to each row of the table view. Creatng custom cell will enable the developer to have their own layout 	in the rows. 
+3. Add reminders 
+
+   
