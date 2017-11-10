@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="submit">Submit</string>
+    <string name = "titleForName" >Enter name</string>
+    <string name = "title">Know your Hororscope" </string>
+    <string name = "enterName" > Name </string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <string name="ageSelectorLabel">Age group</string>
+    <string-array name="ageSelectorArray">
+        <item>10-20</item>
+        <item>20-30</item>
+        <item>30-40</item>
+    </string-array>
+    <string name = "imageView" >happyimage" </string>
+</resources>
