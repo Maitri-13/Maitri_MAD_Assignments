@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww18680\viewh13380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 										TRACK-ON - The activity tracking app\
+\
+Description: 
+\b0 \
+The app is a task tracker for repeating activities. It will have 2 views. One is the list of tasks(Home page) and another is adding new tasks page.\
+\
+\
+
+\b Structure of the app: 
+\b0 \
+The home view page will have a table view with the tasks listed. At the top right corner of the view, there will be a button for adding new tasks. The user can delete a task by swiping the task to the right side. Also I have created custom cell for each table view row so that I can display more information than what the default cell class provides.\
+\
+This button will take the user to the next view.  The new view has multiple fields that require user inputs. The user can go back to the home page \
+either by hitting Cancel or Save. I am also trying to implement local notification feature. But right now I cannot make the app give a notification at a particular time. Rather it is reminding after every 5 sec.\
+ \
+\
+
+\b App Functionality:
+\b0 \
+\
+
+\b Home page:
+\b0 \
+1. The user can view their list of tasks. \
+	This list is achieved by implementing a table view controller. Each individual cell of the tableview will contain the goal name, the description, date and time of the goal entered by the user. The user can delete a task by swiping the task to the left.\
+2. The user can hit the \'93add\'94 button to add new tasks to the list\
+	This button will take the user to the next view. The segue used to connect the save button to the next view is connected by \'93present modally\'94.\
+	\
+
+\b EditPage:
+\b0 \
+1. There are four text fields: \
+	a. Goal Name: To enter the name of the goal (Required: if the user tries to save without filling it, an alert will be displayed)\
+	b. Description: To describe the goal. (Optional)\
+	c. Start date: To enter the date since when the task will start (Required.)\
+	d. Time: The time to perform the activity being created. (Optional)\
+\
+2. There are two tables linked to action sheets\
+	a. Duration of repetition of task:  Defines the repeating reread of the task. When clicked on the label, a action sheet is displayed 					         containing the options. The default value is \'93Daily\'94\
+	b. Duration of repetition of task:  Defines how long is the task to be scheduled for. When clicked on the label, a action sheet is displayed 					         containing the options. The default value is \'93Forever\'94\
+\
+3. The save button saves all the information entered but the user and goes back to the home page. The save button is placed in the right corner\
+of the toolbar.  \
+\
+4. The cancel button voids all the data entered but the user and takes the control back to the home page. It is placed at the left corner of the tool bar.\
+\
+5. There are more fields for setting the reminders. I am not sure if I can implement the reminder within the time provided. It is right now under future extensions\
+\
+6. I am trying to implement a button which when clicked will send local reminder to the user. Right now I am not able to send notification at a specific date and time. Rather the reminder is sent every 5 seconds. \
+\
+
+\b Common functionality:
+\b0 \
+1. The keyboard disappears when the Done button is hit or the user clicks anywhere else on the screen.\
+2. The cancel and save buttons become inactive when the picker view appears. \
+3. The picker can be dismissed by clicking on Done.\
+4. If the user tries to save a task without any goal title, it is not saved and does not come up on the list in the Home page. \
+\
+
+\b Content of the app:\
+
+\b0  All the content of the app will be provided but the user. There are no formulas used.\
+\
+
+\b Roadblocks at this moment:
+\b0 \
+1. The keyboard is not dismissed automatically when the picker view comes up. \
+2. The local notification is not getting send at a specific date and time. Rather it is getting sent every 5 seconds.\
+\
+\
+\
+}
