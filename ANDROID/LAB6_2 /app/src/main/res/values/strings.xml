@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">activities</string>
+    <string name="button">Submit</string>
+    <string name="textField">Hello World!</string>
+    <string name="www_google_com">http://www.imdb.com/ </string>
+    <string name="movie_selector">Movie Predictor</string>
+    <string name="select_movie_type">Select movie type</string>
+    <string name="the_best_movie_for_you_is">The Best movie for you is</string>
+    <string name="browze_more_movies_online">Browse more movies online</string>
+    <string name="the_movie_type_selected_is">The movie type selected is</string>
+
+    <string-array name="spinner">
+        <item> action </item>
+        <item> romantic</item>
+        <item> horror </item>
+    </string-array>
+
+
+</resources>
