@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">projectVersion1</string>
+    <string name="done">Show sentence</string>
+    <string name="choose_dificulty_level">Choose Dificulty level</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="go_again">Reset the game</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="start">Hide sentence</string>
+    <string name="welcome_to_brain_teasers">Welcome to Brain teasers</string>
+    <string name="browze_internet_for_tips_to_make_memory_sharper">Click on the link for tips to make memory sharper</string>
+    <string name="url">https://bembu.com/how-to-improve-memory/</string>
+</resources>
