@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UITableViewController {
     var continentList = Continents()
+
+    
       var searchController : UISearchController!
     let kfilename = "data2.plist"
     
@@ -48,7 +50,7 @@ class ViewController: UITableViewController {
         
         // SEARCH BAR
         let resultsController = SearchResultsController() //create an instance of our SearchResultsController class
-        resultsController.all = continentList.continents //set the allwords property to our words array
+        resultsController.allwords = continentList.continents //set the allwords property to our words array
         searchController = UISearchController(searchResultsController: resultsController) //initialize our search controller with the resultsController when it has search results to display
         
         //search bar configuration

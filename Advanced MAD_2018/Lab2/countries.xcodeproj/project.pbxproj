@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45161640203CF9E7009E981F /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4516163F203CF9E7009E981F /* SearchResultsController.swift */; };
+		45655B93205045EF003B76A8 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45655B92205045EF003B76A8 /* SearchResultsController.swift */; };
 		7525F6BE1C570524003BBA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525F6BD1C570524003BBA79 /* AppDelegate.swift */; };
 		7525F6C01C570524003BBA79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525F6BF1C570524003BBA79 /* ViewController.swift */; };
 		7525F6C31C570524003BBA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7525F6C11C570524003BBA79 /* Main.storyboard */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4516163F203CF9E7009E981F /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchResultsController.swift; path = "../../-Not workincountries/countries/SearchResultsController.swift"; sourceTree = "<group>"; };
+		45655B92205045EF003B76A8 /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchResultsController.swift; path = "../../../../../GitHub1/Spring18_Adv_MAD_examples/week 3/scrabbleQ/scrabbleQ/SearchResultsController.swift"; sourceTree = "<group>"; };
 		7525F6BA1C570524003BBA79 /* countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7525F6BD1C570524003BBA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7525F6BF1C570524003BBA79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		7525F6BC1C570524003BBA79 /* countries */ = {
 			isa = PBXGroup;
 			children = (
-				4516163F203CF9E7009E981F /* SearchResultsController.swift */,
+				45655B92205045EF003B76A8 /* SearchResultsController.swift */,
 				7525F6BD1C570524003BBA79 /* AppDelegate.swift */,
 				7525F6CF1C57080C003BBA79 /* Continents.swift */,
 				7525F6BF1C570524003BBA79 /* ViewController.swift */,
@@ -159,7 +159,7 @@
 				7525F6D01C57080C003BBA79 /* Continents.swift in Sources */,
 				7548B4F61C5FF52100F405A2 /* AddCountryViewController.swift in Sources */,
 				7548B4F81C60180E00F405A2 /* ContinentInfoTableViewController.swift in Sources */,
-				45161640203CF9E7009E981F /* SearchResultsController.swift in Sources */,
+				45655B93205045EF003B76A8 /* SearchResultsController.swift in Sources */,
 				7525F6C01C570524003BBA79 /* ViewController.swift in Sources */,
 				7525F6BE1C570524003BBA79 /* AppDelegate.swift in Sources */,
 				75C392BC1C5823E5006A3525 /* DetailViewController.swift in Sources */,
