@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Winter</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Winter</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Summer</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Summer</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Spring</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Spring</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fall</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Autumn</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rainy</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Wet_season</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Snowey</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Snowy</string>
+	</dict>
+</array>
+</plist>
