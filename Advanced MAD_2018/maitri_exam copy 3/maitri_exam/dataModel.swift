@@ -13,4 +13,3 @@ class dataModel
     var resName = [String]()
     var urlName = [String]()
 }
-/Users/maitrichattopadhyay/Desktop/MAD_IOS_FOLDER/maitri_exam copy 3

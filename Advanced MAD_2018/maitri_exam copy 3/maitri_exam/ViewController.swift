@@ -14,18 +14,15 @@ class ViewController: UITableViewController {
     
     let filename = "fav.plist"
     
-    var array = ["Luciles", "Rincon Argentina", "Backcountry Pizza"]
-    var arrayUrl = ["https://www.luciles.com/", "https://www.rinconargentinoboulder.com/", "https://www.backcountrypizzaandtaphouse.com/"]
-    
-    
     var searchController : UISearchController!
     // this function writes the values into the dictronary with the keys you provided.
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
+        data.resName = ["Luciles", "Rincon Argentina", "Backcountry Pizza"]
+        data.urlName = ["https://www.luciles.com/", "https://www.rinconargentinoboulder.com/", "https://www.backcountrypizzaandtaphouse.com/"]
+       
         
        // For the edit button to move cells up and down item bar button
        // self.navigationItem.rightBarButtonItem = self.editButtonItem
@@ -64,7 +61,7 @@ class ViewController: UITableViewController {
         
         //search results
         let resultsController = SearchResultsController() //create an instance of our SearchResultsController class
-        resultsController.allwords = array //set the allwords property to our words array
+        resultsController.allwords = data.resName //set the allwords property to our words array
         searchController = UISearchController(searchResultsController: resultsController) //initialize our search controller with the resultsController when it has search results to display
         
         //search bar configuration
@@ -75,26 +72,19 @@ class ViewController: UITableViewController {
     }
     
     
-    // this function is used to get the path of the file that we wrote in to
-    func docFilePath(_ filename: String) -> String?
-    {
-        
-        let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true)
-        let dir = path[0] as NSString
-        return dir.appendingPathComponent(filename)
-    }
+   
     
     //Required methods for UITableViewDataSource
     //Number of rows in the section
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
+        return data.resName.count
     }
     
     // Displays table view cells
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //configure the cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellIdentifier", for: indexPath)
-        cell.textLabel?.text = array[indexPath.row]
+        cell.textLabel?.text = data.resName[indexPath.row]
         return cell
     }
     //-------------dlete---------------
@@ -109,8 +99,8 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
 
             
-            array.remove(at: indexPath.row)
-          arrayUrl.remove(at: indexPath.row)
+            data.resName.remove(at: indexPath.row)
+          data.urlName.remove(at: indexPath.row)
             // Delete the row from the table
             tableView.deleteRows(at: [indexPath], with: .fade)
 
@@ -134,8 +124,8 @@ class ViewController: UITableViewController {
 //        }
         if segue.identifier == "showWebsegue" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let url = arrayUrl[indexPath.row]
-                let name = array[indexPath.row]
+                let url = data.urlName[indexPath.row]
+                let name = data.resName[indexPath.row]
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = url as AnyObject?
                 controller.title = name
@@ -171,8 +161,8 @@ class ViewController: UITableViewController {
                         if ((source.newthing.isEmpty) == false && (source.newUrl.isEmpty) == false )
                         {
                             //add country to the array
-                            array.append(source.newthing)
-                            arrayUrl.append(source.newUrl)
+                            data.resName.append(source.newthing)
+                            data.urlName.append(source.newUrl)
                             tableView.reloadData()
         
                         }
