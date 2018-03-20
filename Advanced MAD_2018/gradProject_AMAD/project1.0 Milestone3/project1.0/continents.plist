@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pisces</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=12</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=12</string>
+		<string>The stars are telling you to create, produce, attempt and, above all, dare. Go above and beyond what you think is possible, and you might just see it become probable.</string>
+	</array>
+	<key>Acquarius</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=11</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=11</string>
+		<string>Rather than letting your emotions run away with you, acknowledge that you have some very strong feelings on the topic.</string>
+	</array>
+	<key>Capricorn</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=10</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=10</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=10</string>
+	</array>
+	<key>Sagittarius</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=9</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=9</string>
+		<string>when your wants and needs are running in opposite directions, it&apos;s a good idea to go your separate ways and then meet up later. </string>
+	</array>
+	<key>Scorpio</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=8</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=8</string>
+		<string>Things are ready to roll your way, but you have to be willing to say the word to set things in motion. It&apos;s merely a matter of deciding how and where you want to go. </string>
+	</array>
+	<key>Libra</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=7</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=7</string>
+		<string>It&apos;s a good time to concentrate on the small things that enrich your life and the lives of those you care about. Your karma may get a much-needed kick-start as a result.</string>
+	</array>
+	<key>Virgo</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=6</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=6</string>
+		<string>Purpose and drive are simply pouring out of you, so if there&apos;s something that you&apos;ve been wanting to make progress on, now is the time. </string>
+	</array>
+	<key>Leo</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=5</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=5</string>
+		<string>Go ahead and turn your scrutiny to your own regal self -- specifically, to deeper matters of the heart and soul. Dare to challenge yourself on long-established patterns and relationships. </string>
+	</array>
+	<key>Cancer</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=4</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=4</string>
+		<string>Although your spirits are high, it might actually be a good idea to stick around the house and direct your crackling energy at matters domestic. </string>
+	</array>
+	<key>Gemini</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=3</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=3</string>
+		<string>Absolutely no pouting allowed! If you had a clear idea of what something was supposed to be like and it doesn&apos;t measure up to your expectations, tuck in that lower lip and face the circumstances gracefully. In fact, if you do your best to deal with the circumstances in a calm, cool and collected manner, you might just find that this &apos;disappointment&apos; ends up being exactly what you needed all along.</string>
+	</array>
+	<key>Taurus</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=2</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=2</string>
+		<string>A fantastic bargain awaits, but you&apos;ll have to go out of your way to find it. Scorn malls and chain stores and seek out the delightfully odd and hidden. Haunt flea markets, garage sales and make a point of going out of the way to any boutiques or specialty stores that you&apos;ve always been curious about. Something fabulous out there is seeking you, but you have to be open to receiving it. Stay curious.</string>
+	</array>
+	<key>Aries</key>
+	<array>
+		<string>https://www.horoscope.com/us/horoscopes/career/horoscope-career-daily-today.aspx?sign=1</string>
+		<string>https://www.horoscope.com/us/horoscopes/wellness/horoscope-wellness-daily-today.aspx?sign=1</string>
+		<string>Projects that are centered on home improvement are especially well favored. So if it&apos;s been far too long since you talked to mom -- and you&apos;re dying to know how you can sand and stain that table that&apos;s been sitting in your garage for ages -- you should definitely give her a call and ask for her advice.</string>
+	</array>
+</dict>
+</plist>
