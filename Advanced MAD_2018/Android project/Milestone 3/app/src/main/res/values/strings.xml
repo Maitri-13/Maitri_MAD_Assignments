@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">project_Android_1.1</string>
+    <string-array name="bulb_types">
+        <item>Technical</item>
+        <item>Hr</item>
+        <item>General</item>
+    </string-array>
+
+</resources>
