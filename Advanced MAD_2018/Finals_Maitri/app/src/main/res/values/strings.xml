@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Finals_Maitri</string>
+    <string-array name="bulb_types">
+        <item>Cardio</item>
+        <item>Strength</item>
+        <item>Flexibility</item>
+    </string-array>
+</resources>
