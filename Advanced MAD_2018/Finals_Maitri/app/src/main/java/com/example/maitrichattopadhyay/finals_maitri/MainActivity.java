@@ -35,7 +35,7 @@ public class MainActivity extends ListActivity {
          workoutType = i.getStringExtra("type");  // geting the data that is passed
         Log.d("came here",workoutType);
 
-        DataClass QB = new DataClass("matri", "http//google.com");
+        DataClass QB = new DataClass("push ups", "http//google.com");
         DataClass.Cardio.add(QB);
 
 
@@ -107,6 +107,7 @@ public class MainActivity extends ListActivity {
                 //start order activity
                 Intent intent = new Intent(this, AddNewWorkout.class); // this says where to go from this class
 
+                intent.putExtra("type", workoutType);
                  startActivity(intent);
 
 
@@ -147,9 +148,7 @@ public class MainActivity extends ListActivity {
             //remove the hero
             DataClass.Cardio.remove(info.position);
 
-          //  Hero.heroes.get((int) universeId).getSuperheroes().remove(info.position);
-            //refresh the list view
-           // HeroDetailFragment.this.adapter.notifyDataSetChanged();
+
             listAdapter.notifyDataSetChanged();
         }
 
